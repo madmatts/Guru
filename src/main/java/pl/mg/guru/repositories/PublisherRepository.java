@@ -1,0 +1,8 @@
+package pl.mg.guru.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+import pl.mg.guru.model.Book;
+
+public interface BookRepository extends CrudRepository<Book, Long> {
+
+}
